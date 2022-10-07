@@ -9,10 +9,10 @@ export default function TeamsPage() {
 
   console.log(users);
   return (
-    <div>
+    <div className={s.container}>
       {
         users.length === 0
-       ? 'No users'
+       ? <p className={s.no_teams}>No teams yet</p>
        : users.map(el => <User key={el.id} {...el}/>)
       }
     </div>

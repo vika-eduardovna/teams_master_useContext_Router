@@ -1,0 +1,12 @@
+.no_teams {
+    width: 60%;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: #a9b9df;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}

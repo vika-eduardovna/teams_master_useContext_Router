@@ -1,0 +1,19 @@
+.container {
+    width: 60%;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: #a9b9df;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;  
+}
+
+.team_style {
+    text-align: center;
+    width: 150px;
+    background-color: #71595d;
+    padding: 10px;
+}
