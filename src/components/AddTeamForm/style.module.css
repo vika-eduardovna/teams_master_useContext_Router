@@ -1,0 +1,34 @@
+.team_form_container {
+    width: 60%;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 3px solid #a9b9df;
+}
+
+.team_form {
+    display: grid;
+    grid-auto-rows: 30px;
+    gap: 20px;
+}
+
+.team_form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a9b9df;
+    color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.team_form_container p {
+    margin-bottom: 20px;
+}
+
+.team_form input {
+    padding: 15px;
+}
