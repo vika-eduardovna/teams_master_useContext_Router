@@ -10,7 +10,6 @@ export default function AddTeamForm() {
     e.preventDefault();
     const { title } = e.target;
     addTeam(title.value);
-    console.log(title.value);
     title.value = '';
   }
 
